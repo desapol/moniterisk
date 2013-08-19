@@ -21,13 +21,12 @@ header
 	padding: 0.5em 0;
 	width: 100%;
 }
-section
+#status
 {
 	background: yellow;
 	font-size: 0.75em;
 	margin: 0;
-	padding: 0.5em 0;
-	width: 25%;
+	padding: 0.5em 0;	
 }
 section:hover
 {
@@ -35,14 +34,48 @@ section:hover
 	color: black;
 }
 
-#p1 .c1, .c2, .c3, .c4, .c5, .c6
+
+.peer .c1, .c2, .c3, .c4, .c5, .c6
 {
-	border: 1px solid red;
 	margin: 0.1em;
 	text-align: right;
 }
+#status
+{
+	margin: 0;
+	padding: 0;
+}
+#status #status1
+{
+	background: green;
+}
+#status #status2
+{
+	background: peru;
+}
+#status #status3
+{
+	background: brown;
+}
+#status #status4
+{
+	background: red;
+}
+#status #status1 .peer
+{
+	border: 1px solid purple;
+	max-height: 50%;
+}
+#status #status1, #status2, #status3, #status4
+{
+	border: 1px solid #ccc;
+	display: inline-block;
+	margin: 0;
+	padding: 1em;
+	vertical-align: top;
+	width: 22%;
 
-
+}
 .s1, .s2, .s3, .s4, .s5, .s6
 {
 	background: pink;
